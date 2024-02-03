@@ -54,7 +54,7 @@ body{
     background-color: purple;
     border-radius: 3px;
     opacity: .5;
-    transition: all ease-in-out .8s;
+    transition: all linear .8s;
 }
 .grey{
     height:7.3rem ;
@@ -118,6 +118,47 @@ body{
     transform-origin: bottom left;
     transform: rotate(45deg);
 }
+.box17:hover{
+    transform-origin: bottom ;
+    transform: perspective(300px) rotateX(45deg);
+}
+.box18:hover{
+    transform-origin: top ;
+    transform: perspective(300px) rotateX(65deg);
+}
+.box19:hover{
+    transform-origin: left ;
+    transform: perspective(300px) rotatey(45deg);
+}
+.box20:hover{
+    transform-origin: right ;
+    transform: perspective(300px) rotatey(60deg);
+}
+.box21:hover{
+    transform-origin: right top;
+    transform: scale(2);
+}
+.box22:hover{
+    transform-origin: bottom left;
+    transform: scale(2);
+}
+.box23:hover{
+    transform-origin:  right;
+    transform: scalex(2);
+}
+.box24:hover{
+    transform-origin:  left;
+    transform: scalex(2);
+}
+.box25:hover{
+    transform-origin:  top;
+    transform: scaleY(2);
+}
+.box26:hover{
+    transform-origin:  bottom;
+    transform: scaleY(2);
+}
+
 
 
 
